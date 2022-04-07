@@ -67,7 +67,7 @@ const deleteUsers = async(req, res) => {
         res.send("Deleted successfully")
     }
     else{
-        res.send("No user to delete")
+        res.send("No user to delete select a user ")
     }
 }
 
